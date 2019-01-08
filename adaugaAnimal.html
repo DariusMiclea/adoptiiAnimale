@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adoptii animale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "header">
+        <h1>Adoptă un animăluț,</h1>
+        <h2>Salvează o viață!</h2>
+    </header>
+    <nav class="nav">
+     <ul>
+        <li><a href="index.html">Acasa</a></li>
+        <li><a href="adaugaAnimal.html">Adauga un animal</a></li>
+        <li><a href="despre.html">Despre</a></li>
+        <li><a href="contact.html">Contact</a></li>
+     </ul>
+    </nav>
+    <main class = "main">
+        <p>Adauga un animal spre adoptie completand formularul de mai jos:</p>
+        
+        <form class = "form">
+            <label for="surname">Nume:</label>
+            <input type="text" id = "surname" placeholder = "Nume..." required><br>
+            <label for="name">Prenume:</label>
+            <input type="text" id = "name" placeholder = "Prenume..." required><br>
+            <label for= "email">Email:</label>
+            <input type="email" id = "email" placeholder = "Email..." required><br>
+            <label for="phone">Telefon:</label>
+            <input type="text" id = "phone" placeholder = "Telefon..." required><br>
+            <label for="description">Descrierea animalutului dat spre adoptie:</label>
+            <textarea rows= "8" cols= "50" id="description" maxlength="500" 
+            placeholder="Descrie animalutul(specie, rasa, varsta aprox., stare medicala etc)" required></textarea><br>
+            <label for="image">Adauga o imagine cu animalutul dat spre adoptie:</label>
+            <input type="file" id = "image" required accept=".jpg, .png, .jpeg"><br>
+            <input type = "submit" class = "button">
+        </form>
+    </main>
+</body>
+</html>
