@@ -73,3 +73,63 @@
     text-align: center;
     font-size: 100%;
   }
+
+  #lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  #lista ul {
+    list-style-type: none;
+    border-bottom: 2px dotted #333333;
+    padding-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+
+}
+#lista li{
+  margin: 2%;
+}
+#lista h2{
+  
+  padding-bottom: 3px;
+}
+.name{
+  font-weight: 600;
+}
+.surname{
+  font-weight: 600;
+}
+
+.phone{
+  font-weight: 600;
+}
+
+.email{
+  font-weight: 600;
+}
+.description{
+  font-weight: 600;
+}
+
+.admin-body{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.admin-body button{
+  width: 500px;
+  max-width: 50%;
+  
+}
+
+.admin-body input{
+  width: 300px;
+  max-width: 50%;
+  margin-bottom: 2%
+}
