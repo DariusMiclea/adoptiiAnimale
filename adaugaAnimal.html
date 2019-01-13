@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adoptii animale</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class = "header">
@@ -35,10 +36,11 @@
             <label for="description">Descrierea animalutului dat spre adoptie:</label>
             <textarea rows= "8" cols= "50" id="description" maxlength="500" 
             placeholder="Descrie animalutul(specie, rasa, varsta aprox., stare medicala etc)" required></textarea><br>
-            <label for="image">Adauga o imagine cu animalutul dat spre adoptie:</label>
-            <input type="file" id = "image" required accept=".jpg, .png, .jpeg"><br>
-            <input type = "submit" class = "button">
+            <label for="image">Adauga o un link cu o imagine a animalutului dat spre adoptie:</label>
+            <input type="text" id = "image" required><br>
+            <button type = "submit" class = "button" id="submitButton">Trimite</button>
         </form>
     </main>
+    <script src = "adaugaAnimal.js"></script>
 </body>
 </html>

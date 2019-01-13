@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adoptii animale</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class = "header">
@@ -29,11 +30,12 @@
         <p>Sau completand formularul de mai jos si va vom contacta noi.</p><br>
     </main>
     <form>
-        <input class= "email-contact" type= "email" name= "email" placeholder="Email..." required><br><br>
-        <textarea name= "message" rows = "8" cols = "50" maxlength="500" 
+        <input id="email" class= "email-contact" type= "text" name= "email" placeholder="Email..." required><br><br>
+        <textarea id="message" name= "message" rows = "8" cols = "50" maxlength="500" 
         placeholder="Cum te putem ajuta?" required></textarea><br><br>
-        <input type = "submit" class = "button">
+        <button type = "submit" class = "button" id="submitButton">Trimite</button>
         
     </form>
+    <script src="contact.js"></script>
 </body>
 </html>
