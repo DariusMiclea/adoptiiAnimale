@@ -5,7 +5,7 @@
       "surname": "dasda",
       "phone": "dasd",
       "email": "darius.miclea97@gmail.com",
-      "description": "descriere mai luuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuunga",
+      "description": "descriere mai lunga pentru a testa responsivitatea acestui camp",
       "imageLink": "https://i.imgur.com/OM1jAhs.gif",
       "id": 4
     },
@@ -71,6 +71,42 @@
       "description": "asdasf",
       "imageLink": "https://i.imgur.com/OM1jAhs.gif",
       "id": 11
+    },
+    {
+      "name": "sdak",
+      "surname": "asdf",
+      "phone": "0722432265",
+      "email": "asa@asaa",
+      "description": "asdf",
+      "imageLink": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
+      "id": 12
+    },
+    {
+      "name": "asdf",
+      "surname": "asdf",
+      "phone": "dasdasda",
+      "email": "fsfa@dasda",
+      "description": "sdasdasd",
+      "imageLink": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
+      "id": 13
+    },
+    {
+      "name": "asasa",
+      "surname": "asasa",
+      "phone": "ads",
+      "email": "ads@asd",
+      "description": "asdasda",
+      "imageLink": "https://i.imgur.com/XgbZdeA.jpg",
+      "id": 14
+    },
+    {
+      "name": "dsa",
+      "surname": "asasa",
+      "phone": "0722432265",
+      "email": "ads@asd",
+      "description": "sdadasda",
+      "imageLink": "https://i.imgur.com/MU2dD8E.jpg",
+      "id": 15
     }
   ],
   "contact": [

@@ -90,6 +90,12 @@
     padding-bottom: 5%;
 
 }
+#lista img{
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  max-height:100%
+}
 #lista li{
   margin: 2%;
 }
